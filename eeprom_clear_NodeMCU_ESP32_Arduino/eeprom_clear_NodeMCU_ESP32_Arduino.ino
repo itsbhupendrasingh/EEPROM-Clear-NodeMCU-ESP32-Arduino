@@ -7,7 +7,7 @@
 */
 
 #include <EEPROM.h>
-int val = 4096; // write a 0 to all 4096 bytes of the EEPROM
+int val = 4096; // write the size of EEPROM of your board in bytes (from 0 to all 4096 bytes of the EEPROM)
 // if Arduino UNO then replace it with 512
 void setup() {
   Serial.begin(9600);
